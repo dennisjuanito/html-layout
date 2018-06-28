@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    /* stop doing the box model do take account margin and padding and border when we speciy width and height*/
+}
+
+header {
+    margin: 10px;
+    width: 98%;
+    height: 30vh;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.box1 {
+    height: 80%;
+    width:  5%;
+    background-color: purple;
+    margin-top: 30px; 
+    display: inline-block;
+}
+
+.box2 {
+    height: 80%;
+    width:  30%;
+    background-color: green;
+    margin-top: 30px; 
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.circle {
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.middle-container {
+    margin: 10px;
+    width: 98%;
+    height: 30vh;
+    border: 3px dotted black;
+    padding: 10px;
+  
+}
+
+.box3 {
+    height: 90%;
+    width:  95%;
+    background-color: #FFFFE0;
+    margin: auto;
+    box-shadow: 5px 10px;
+}
+
+.text-container {
+    margin: 10px;
+    width: 40%;
+    height: 30vh;
+    border: 1px solid lightgray;
+    position: absolute;
+    padding-top: 50px;
+    left: 30vw;
+
+}
+
+p {
+    color: darkblue;
+    text-align: center;
+}
+

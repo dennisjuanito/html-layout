@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    /* stop doing the box model do take account margin and padding and border when we speciy width and height*/
+}
+
+header {
+    background-color: lightgray;
+    width: 100%;
+    height: 10vh;
+}
+
+.logo-box {
+    width: 6%;
+    height: 8vh;
+    background-color: lightskyblue;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+.text-container {
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 350px;
+}
+.line-container{
+    width: 100%;
+    height: 20vh;
+}
+
+.line1 {
+    background-color: lightskyblue;
+    width: 100%;
+    height: 20vh;
+}
+
+.line2 {
+    background-color: lightgreen;
+    width: 100%;
+    height: 20vh;
+}
+
+.line3 {
+    background-color: greenyellow;
+    width: 100%;
+    height: 20vh;
+}
+.line4 {
+    background-color: yellow;
+    width: 100%;
+    height: 20vh;
+}
